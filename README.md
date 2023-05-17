@@ -18,6 +18,7 @@ Replace the csv_file_path variable with the path to your CSV file.
 Run the script.
 Enter your queries in natural language to interact with the CSV data.
 The script will process your query using Langchain and OpenAI and provide relevant responses based on the data in the CSV file.
+Please edit  apikey file inorder to run this application.
 
 # Contributing
 Contributions are not currently accepted for this project.
