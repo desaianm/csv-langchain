@@ -1,8 +1,9 @@
 import streamlit as st
 from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
+from apikey import key
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = key;
 
 def main():
     st.set_page_config(page_title="Ask your Csv")
